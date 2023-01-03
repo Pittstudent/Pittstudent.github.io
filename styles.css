@@ -47,6 +47,21 @@ section {
 .navbar a:hover{
     background: black;
 }
+.contact{
+    text-align: center;
+    font-size: 30px;
+}
+.down{
+    text-align: center;
+    font-size: 30;
+    text-decoration: none;
+}
+.linka {
+    color: white;
+}
+.linka:hover{
+    color: rgba(162,46,33,255);
+}
 
 .logo{
     position:absolute;   
