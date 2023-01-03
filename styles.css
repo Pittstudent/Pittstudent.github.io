@@ -6,6 +6,7 @@ body {
 }
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 section {
@@ -46,13 +47,11 @@ section {
 .navbar a:hover{
     background: black;
 }
+
 .logo{
     position:absolute;   
     left:20px;
     font-size: 30px;
     font-weight: bold;
     margin-top: 20px
-}
-.curve{
-
 }
