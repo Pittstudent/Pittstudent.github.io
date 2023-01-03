@@ -62,6 +62,11 @@ section {
 .linka:hover{
     color: rgba(162,46,33,255);
 }
+.git{
+    text-align: center;
+    font-size: 30;
+    text-decoration: none;
+}
 
 .logo{
     position:absolute;   
