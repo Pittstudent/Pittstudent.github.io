@@ -1,97 +1,162 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrick Gamwo - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
     <header>
-        <link rel="stylesheet" href="styles.css">
-        <div class= "navbar">
-            <div class= "logo">Rodrick's Profile</div>
-                <ul>
-                    <a href= "index.html"><li>Home</li></a>
-                    <a href= "projects.html"><li>Projects</li></a>
-                    <a href= "resume.html"><li>Resume</li></a>
-                    <a href= "contact.html"><li>Contact</li></a>
-                </ul>
+        <div class="navbar">
+            <div class="logo">Rodrick's Profile</div>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="projects.html"><i class="fas fa-code"></i> Projects</a></li>
+                <li><a href="resume.html"><i class="fas fa-file-alt"></i> Resume</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
         </div>
     </header>
-<body>
-<br><br><br>
-<center><img src="RodrickProfile.jpg" alt="Rodrick Gamwo" width="325" height="400"></center><br><br><br>
-    <section class= "red">
-        <h1><center><b>About me</b></center></h1>
-            <center>Seeking a challenging programming role within the software engineering/development field</center>
-        <br>
-        <h1><center>Education</center></h1>
 
-        <center><strong>2021-2024</strong><br><br>
-            University of Pittsburgh, Pittsburgh, PA<br>
-            Major: Computer Science <br>
-            Minor: French<br>
-            GPA: 3.2</center>
-            <br>
-            <center><strong>2013-2017</strong><br><br>
-            Franklin Regional Senior High, Murrysville, PA
-            </center><br>
+    <main style="padding-top: 80px;">
+        <div class="profile-image">
+            <img src="RodrickProfile.jpg" alt="Rodrick Gamwo" width="325" height="400">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+
+        <section class="red">
+            <h1>About Me</h1>
+            <p class="about-text">Seeking a challenging programming role within the software engineering/development field</p>
+
+            <h1>Education</h1>
+            <div class="education-item">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3>University of Pittsburgh, Pittsburgh, PA</h3>
+                <p><strong>2021-2024</strong></p>
+                <p>Major: Computer Science<br>
+                Minor: French<br>
+                GPA: 3.2</p>
+            </div>
+
+            <div class="education-item">
+                <div class="education-icon">
+                    <i class="fas fa-school"></i>
+                </div>
+                <h3>Franklin Regional Senior High, Murrysville, PA</h3>
+                <p><strong>2013-2017</strong></p>
+            </div>
+
+            <h1>Technical Proficiencies</h1>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <i class="fas fa-laptop"></i>
+                    <h3>Platforms</h3>
+                    <p>Mac, Windows</p>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-code"></i>
+                    <h3>Languages</h3>
+                    <p>Java(5 years), Python, C programming, HTML, CSS, Javascript</p>
+                </div>
+                <div class="skill-category">
+                    <i class="fas fa-tools"></i>
+                    <h3>Software</h3>
+                    <p>GitHub, Microsoft Office, Spring Boot, Unity, MATLAB, Angular, Selenium, Eclipse, Visual VM, Node.js, React, Docker, Postman, Adobe</p>
+                </div>
+            </div>
+
+            <h1>Work Experience</h1>
             
-        <h1><center>Technical Profinciencies</center></h1>
-            <center>Platforms: Mac, Windows</center>
-            <center>Languages: Java(5 years), Python, C programming, HTML, CSS, Javascript</center>
-            <center>Software: GitHub, Microsoft Office, Spring Boot, Unity, MATLAB, Angular, Selenium, Eclipse, Visual VM, Node.js, React, Docker,
-                Postman, Adobe</center>
-            <br>
-            
-        <h1><center>Work Experience</center></h1>
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h2>Duquesne Club, Pittsburgh, PA</h2>
+                <h3>Lead Valet Attendant</h3>
+                <p><strong>09/2023 - Present</strong></p>
+                <ul>
+                    <li>Parked cars for members of the Duquesne Club as well as guests for numerous events throughout the week.</li>
+                    <li>Helped out in the K+L garage as a lot attendant.</li>
+                </ul>
+            </div>
 
-        <strong><h2>OpenGate Lending, Pittsburgh, PA</h2></strong>
-            <strong><h3>IT Security Analyst Intern </h3></strong>
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <i class="fas fa-code-branch"></i>
+                </div>
+                <h2>CGI, Pittsburgh, PA</h2>
+                <h3>Software Developer Intern</h3>
+                <p><strong>06/2023 - 08/2023</strong></p>
+                <ul>
+                    <li>Built interactive UIs with Vue.js, integrating asynchronous API calls and debugging functionality with Postman.</li>
+                    <li>Created RESTful APIs using Spring Boot and Java, ensuring proper routing, validation, and database integration for an internal application.</li>
+                    <li>Containerized application components with Docker and maintained code consistency using Git for collaboration.</li>
+                    <li>Automated build and deployment processes with Gradle and Spring Data JPA, enhancing database performance and application efficiency.</li>
+                </ul>
+            </div>
 
-            <center>12/2023 - 06/2024<br>
-            <ul>
-                <li>Responded to and analyzed over 100 real-time security alerts daily using Splunk SIEM, improving incident response times.</li>
-                <li>Investigated IAM system logs to identify and mitigate security threats, enhancing the overall security posture.</li>
-                <li>Conducted thorough vulnerability assessments and provided actionable recommendations to strengthen system defenses.</li>
-                <li>Supported the implementation of multi-factor authentication (MFA), increasing user account security.</li>
-            </ul>
-            </center>
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h2>CGI, Pittsburgh, PA</h2>
+                <h3>Capstone Student</h3>
+                <p><strong>01/2023 - 05/2023</strong></p>
+                <ul>
+                    <li>Working with the CGI team and fellow Pitt classmates in the full stack to enhance and improve a client-onboarding portal that serves as an Internal Recruiting Application.</li>
+                    <li>Designed and integrated various UI components using HTML, Javascript, and Angular directives, ensuring a consistent and visually appealing experience.</li>
+                    <li>Actively participated in daily stand-ups to share progress, discuss challenges, and plan the day's tasks while also serving as a scrum master for various sprints.</li>
+                    <li>Utilized Spring Data JPA to interact with the database, storing and retrieving recruitment-related information.</li>
+                </ul>
+            </div>
 
-            <strong><h2>CGI, Pittsburgh, PA</h2></strong>
-            <strong><h3>Software Engineer Intern</h3></strong>
+            <div class="experience-item">
+                <div class="experience-icon">
+                    <i class="fas fa-prescription-bottle-alt"></i>
+                </div>
+                <h2>CVS, Pittsburgh, PA</h2>
+                <h3>Pharmacy Technician</h3>
+                <p><strong>06/2019 - 01/2020</strong></p>
+                <ul>
+                    <li>Processed 200+ prescriptions per shift, ensuring timely medication pickups for 50+ patients and accurately transcribing doctor orders for fulfillment.</li>
+                    <li>Assisted customers with medication pickups, insurance updates, and provided friendly cashier support.</li>
+                </ul>
+            </div>
 
-            <center>06/2023 - 08/2023<br>
-            <ul>
-                <li>Developed interactive user interfaces using Vue.js, a progressive JavaScript framework.</li>
-                <li>Integrated API endpoints with the front-end using asynchronous HTTP requests to fetch and display dynamic data.</li>
-                <li>Designed and implemented RESTful API endpoints using Spring Boot and Java, adhering to best practices for routing, validation, and error handling.</li>
-                <li>Used Postman to test and debug API endpoints, ensuring proper functionality and accurate responses.</li>
-                <li>Leveraged Docker to containerize application components, facilitating consistent deployment across different environments.</li>
-                <li>Worked with Git version control to manage and track code changes, enabling seamless collaboration with team members.</li>
-            </ul>
-            </center>
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-item">
+                    <i class="fas fa-certificate"></i>
+                    <p>CompTIA Security+</p>
+                </div>
+                <div class="certification-item">
+                    <i class="fas fa-certificate"></i>
+                    <p>Google Cybersecurity Certificate</p>
+                </div>
+            </div>
 
-            <strong><h2>University of Pittsburgh, Pittsburgh, PA</h2></strong>
-            <strong><h3>IT Help Desk Analyst</h3></strong>
-            <center>01/2023 - 05/2023<br>
-            <ul>
-                <li>Troubleshooted and resolved student, faculty, and staff IT tickets related to hardware, software, and network connectivity.</li>
-                <li>Assisted with account management, including resetting passwords, unlocking accounts, and authentication for user access.</li>
-                <li>Ensured cybersecurity protocols are followed, including advising users on safe computing practices and phishing threat recognition.</li>
-            </ul>
-            </center>
-            
-            <strong><h2>CVS Pharmacy, Pittsburgh PA</h2></strong>
-            <strong><h3>Pharmacy Technician</h3></strong>
-            <center>05/2019 - 01/2020<br>
-            <ul>
-            <li>Provided excellent customer service by proactively reaching out to about 50 patients per shift to ensure their medication was
-                picked up on time, while filling over 200 prescriptions per shift.</li>
-            </ul>
-            </center>
-        <h2><center>Certifications</center></h2>
-        <ul>
-            <li>CompTIA Security+</li>
-            <li>Google Cybersecurity Certificate</li>
-          </ul>
-        <h2><center>Relevant Courses</center></h2>
-            <center>Data Structures & Algorithms I, Data Structures & Algorithms II, Software Engineering, Intro to Systems Software, Programming Language for Web Applications, Quality Assurance, Computer Org & Assembly, Operating Systems, Computer Architecture
-                    Stat 0100, Calculus 1,2, Discrete Structures, Formal Methods, Technical Writing, Microeconomics <br>
-            </center>
-    </section>
-    </body>
+            <h2>Relevant Courses</h2>
+            <div class="courses-grid">
+                <p>Data Structures & Algorithms I, Data Structures & Algorithms II, Software Engineering, Intro to Systems Software, Programming Language for Web Applications, Quality Assurance, Computer Org & Assembly, Operating Systems, Computer Architecture, Stat 0100, Calculus 1,2, Discrete Structures, Formal Methods, Technical Writing, Microeconomics</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Rodrick Gamwo. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
 </html>
